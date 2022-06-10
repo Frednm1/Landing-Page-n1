@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/*header*/
+.menu{
+    height: 100px;
+    background-color: #14233a;
+}
+.menu-content{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    padding-top: 25px;
+    margin: auto;
+    justify-content: space-between;
+}
+.menu-content img{
+    display: inline-block;
+}
+.baixar-menu{
+    background-color: #ec7200;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+}
+.baixar-menu:hover{
+    cursor: pointer;
+}
+/* container */
+.container{
+    width: 100%;
+    background-color: #f3f3f3;
+    height: 600px;
+}
+.wrapper{
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    margin: 0px auto;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+.box-img{
+    width: 70%;
+    display: flex;
+    background-image: url('../images/casag.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-logo{
+    text-align: center;
+}
+.form{
+    width: 30%;
+    display: inline-block;
+    background-color: #192940;
+    padding: 30px;
+    color: white;
+    line-height: 70px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #EF3D01;
+    line-height: normal;
+    font-weight: 500;
+}
+.white-h2{
+    color: white;
+}
+.form input{
+    display: block;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+}
+
+.form p{
+    display: inline;
+}
+.asterisco{
+    display: inline;
+    color: #EF3D01;
+}
+.w50{
+    display: flex;
+}
+.input-w50{
+    display:block;
+    width: 50%;
+    margin: 0 auto;
+}
+.input-w50 input{
+    width: 80%;
+    padding: 15px 20px;
+}
+.input-w50 p{
+    font-size: 22px;
+}
+.input {
+    width: 100%;
+}
+.input input{
+    width: 90%;
+    padding: 15px 20px;
+}
+.input p{
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: #5286d4;
+}
+#check{
+    display: inline;
+}
+.submit{
+    width: calc(90% + 40px);
+    padding: 15px;
+    background-color: #ec7200;
+    color: white;
+
+}
+.submit:hover{
+    cursor: pointer;
+}
+.termos{
+    font-size: 22px;
+}
+/*footer*/
+.footer{
+    background-color: #14233a;
+    height: 420px;
+    margin-top: 400px;
+}
+.w-30{
+    width: 35%;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 0 0 15px;
+    line-height: 18px;
+}
+.w-30-desc{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-icon{
+    background-color: #ec7400;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 2px;
+}
+.img-icon img{
+    padding: 10px;
+}
+.icones{
+
+    padding-top: 30px;
+}
+.img-icon-insta img{
+    padding: 9px;
+}
+.contato-footer{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.dr{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 10px;
+}
+.div-footer{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.direita{
+    font-size: 25px;
+    line-height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    float: right;
+}
+.direita p:first-child{
+    padding-top: 40px;
+}
+.direita p:nth-child(2){
+    padding-top: 30px;
+}
+.baixar{
+    background-color: #ec7400;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.baixar:hover{
+    cursor: pointer;
+}
+/*footer*/
+@media (max-width:1500px){
+    .box-img{
+        width: 50%;
+        background-size: contain;
+        background-color: #192940;
+    }
+    .form{
+        width: 50%;
+    }
+}
+@media(max-width:1080px){
+
+    .wrapper{
+        display: block;
+        background-color: #192940;
+        height: 2000px;
+    }
+    .box-img{
+        display: block;
+        width: 100%;
+        height: 700px;
+        margin: 0 auto;
+    }
+    .form{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    form{
+        padding-left: 20px;
+    }
+    .termos{
+        padding-left: 20px;
+    }
+/*footer*/
+.footer{
+    background-color: #14233a;
+    height: 650px;
+    margin-top: 1000px;
+}
+.wrapper6{
+    display: block;
+}
+.box1-c4{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.box2-c4{
+    display: block;
+    margin: 0 auto;
+}
+.w-30{
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+.div-footer{
+    padding-top: 20px;
+    margin: 0px auto;
+}
+.direita{
+    float: none;
+}
+/*footer*/
+}
+@media(max-width:650px){
+    .wrapper{
+        display: block;
+        background-color: #192940;
+        height: 1200px;
+    }
+    .box-img{
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .form{
+        padding: 0;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        padding: 0;
+    }
+    input{
+        margin-bottom: 20px;
+    }
+    .input {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .input input{
+        width: 200px;
+        padding: 15px 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .w50{
+        display: block;
+    }
+    .input-w50{
+        display:block;
+        width: 240px;
+        margin: 0 auto;
+    }
+    .input-w50 input{
+        width: 200px;
+        padding: 15px 20px;
+    }
+    form{
+        padding-left: 0px;
+    }
+    .termos{
+        padding-left: 0px;
+    }
+    .submit{
+        width: 240px;
+        margin: 20px auto;
+    }
+    /* header */
+    .menu-content{
+        justify-content: center;
+    }
+    .baixar-menu{
+        display: none;
+    }
+    /*footer*/
+    .w-30{
+        width: 80%;
+    }
+    .footer{
+        height: 740px;
+        margin-top: 600px;
+    }
+    .box1-c4{
+        display:block;
+        color: white;
+        width: 300px;
+        height: 300px;
+        font-weight: 600;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .dr{
+        line-height: normal;
+    }
+    .c4-p1{
+        font-size: 26px;
+        margin: 0 auto;
+    }
+    .c4-p2{
+        margin: 20px auto;
+        font-size: 24px;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .box1-c4{
+        margin: auto;
+    }
+    /*footer*/
+}
